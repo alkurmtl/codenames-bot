@@ -1,0 +1,13 @@
+Bot username: untakennamebot
+Long poll started
+Game started
+Filling field with words
+Filling field with types
+Converting field to string
+blue Ð white ³ white Ð white ¾ white Ð 
+white Ñ white ‡ white Ð white µ white Ð 
+white Ð white ² white Ñ white € white Ð 
+white Ð white ´ white Ð white µ black Ð 
+white Ð white ¶ white Ð white ¸ white Ð 
+
+error: Bad Request: strings must be encoded in UTF-8
