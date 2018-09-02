@@ -139,8 +139,11 @@ void read_words() {
 }
 
 int main() {
+    std::ifstream token_input("token.txt");
+    std::string token;
+    token_input >> token;
     read_words();
-    TgBot::Bot bot("686624751:AAGMUaLaHSpJZoOoiiEaCMrzm5G1OW5ZuP0");
+    TgBot::Bot bot(token);
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         bot.getApi().sendMessage(message->chat->id, "Hi!");
     });
